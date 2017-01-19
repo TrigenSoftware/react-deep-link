@@ -1,6 +1,7 @@
 [![NPM](https://nodei.co/npm/react-deep-link.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-deep-link/)
 
 # react-deep-link
+
 A React mixin for linking form fields to a deep structure of data within the component's state.
 
 # Description
@@ -14,7 +15,6 @@ To install from npm, run:
 `npm install --save react-deep-link`
 
 Then include the mixin in the component that will use it:
-
 ```js
 import DeepLinkMixin from 'react-deep-link';
 
@@ -28,7 +28,6 @@ var MyComponent = React.createClass({
 ```
 
 or
-
 ```js
 import DeepLinkDecorator from 'react-deep-link/lib/decorator';
 
@@ -40,7 +39,7 @@ class MyComponent extends React.Component {
 }
 ```
 
-# Usage Examples #
+# Usage Examples
 
 Link a text field to `this.state.data.user.name`:
 ```jsx
@@ -84,5 +83,3 @@ class MyComponent extends React.Component {
 	...
 }
 ```
-
-
